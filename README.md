@@ -1,6 +1,5 @@
-# Python-Hydrology-Workflows
-Automated hydrological analysis and spatial data processing using Python. Features SMHI API integration, watershed delineation with Pysheds, and geospatial data visualization
 # Python for Hydrology & Water Resources
+Automated hydrological analysis and spatial data processing using Python. Features SMHI API integration, watershed delineation with Pysheds, and geospatial data visualization
 
 ## 📌 Project Overview
 This repository contains a collection of Python workflows designed to automate hydrological data analysis, spatial mapping, and climate data extraction. These scripts demonstrate the transition from traditional GUI-based GIS software (like QGIS) to programmatic, reproducible data science.
