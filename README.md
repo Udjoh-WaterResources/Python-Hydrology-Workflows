@@ -21,7 +21,7 @@ Loaded and filtered 70+ years of daily weather data to analyze long-term trends 
 
 | Seasonal Temperature (1948) | 70-Year Temperature Trend |
 | :---: | :---: |
-| ![Seasonal Temp](seattle_mean_daily_temperature_(1948).png) | ![70 Year Temp](seattle_mean_daily_temperature_(1948-2010).png) |
+| ![Seasonal Temp](seattle_seasonal_temp.png) | ![70 Year Temp](seattle_70year_temp.png) |
 
 ### 2. Automated API Integration (SMHI)
 Connected directly to the Swedish Meteorological and Hydrological Institute (SMHI) Open Data API. Parsed complex JSON responses into clean Pandas DataFrames and generated precipitation bar charts for Stockholm automatically.
