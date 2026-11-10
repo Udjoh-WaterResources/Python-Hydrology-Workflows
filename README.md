@@ -21,13 +21,13 @@ Loaded and filtered 70+ years of daily weather data to analyze long-term trends 
 
 | Seasonal Temperature (1948) | 70-Year Temperature Trend |
 | :---: | :---: |
-| ![Seasonal Temp](seattle_seasonal_temp.png) | ![70 Year Temp](seattle_70year_temp.png) |
+| ![Seasonal Temp](seattle_mean_daily_temperature_(1948).png) | ![70 Year Temp](seattle_mean_daily_temperature_(1948-2010).png) |
 
 ### 2. Automated API Integration (SMHI)
 Connected directly to the Swedish Meteorological and Hydrological Institute (SMHI) Open Data API. Parsed complex JSON responses into clean Pandas DataFrames and generated precipitation bar charts for Stockholm automatically.
 *   **Output:** Daily precipitation events showing distinct heavy rainfall days in the summer and autumn.
 
-![SMHI Precipitation](precipitation_chart.png)
+![SMHI Precipitation](Daily_Precipitation_stockholm.png)
 
 ### 3. Spatial Hydrology & DEM Processing (GeoPandas & Pysheds)
 Downloaded Digital Elevation Models (DEMs) and executed a full hydrological terrain analysis workflow in Python:
@@ -37,7 +37,7 @@ Downloaded Digital Elevation Models (DEMs) and executed a full hydrological terr
 
 | DEM & Flow Accumulation | Watershed Delineation |
 | :---: | :---: |
-| ![DEM and Flow](dem_flow_accumulation.png) | ![Watershed](gothenburg_watershed.png) |
+| ![DEM and Flow](Gothenburg_Stream_Network.png) | ![Watershed](watershed_map.png) |
 
 ---
 
